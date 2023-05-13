@@ -1,0 +1,21 @@
+{
+  "name": "react-dom-bindings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "moduleNameMapper": {
+        "^react-dom-bindings$": "<rootDir>/packages/react-dom-bindings",
+        "^react-is$": "<rootDir>/packages/react-is",
+        "^react-reconciler$": "<rootDir>/packages/react-reconciler",
+        "^shared$": "<rootDir>/packages/shared"
+    },
+    "testURL": "http://localhost/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
